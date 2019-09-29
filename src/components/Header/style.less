@@ -1,0 +1,47 @@
+.header {
+  background-color: #fff;
+  .header-top {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: right;
+    a {margin-left: 30px;
+
+    }
+  }
+  .breadcrumb {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-top: 1px solid #f9c700;
+    .breadcrumb-title {
+      font-size: 20px;
+      text-align: center;
+      &:after {
+        position: absolute;
+        content: '';
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -32px;
+        border-top: 14px solid #fff;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+      }
+    }
+    .weather {
+      text-align: right;
+      .weather-detail {
+        margin-left: 10px;
+        .weather-img {
+          width: 20px;
+          vertical-align: middle;
+        }
+        .weather-des {
+          margin-left: 6px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
