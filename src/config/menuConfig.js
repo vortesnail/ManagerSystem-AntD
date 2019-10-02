@@ -12,8 +12,8 @@ const menuList = [
         key: '/admin/ui/buttons'
       },
       {
-        title: 'loading',
-        key: '/admin/ui/loading'
+        title: '弹框',
+        key: '/admin/ui/modals'
       }
     ]
   },
