@@ -14,6 +14,30 @@ const menuList = [
       {
         title: '弹框',
         key: '/admin/ui/modals'
+      },
+      {
+        title: 'Loadings',
+        key: '/admin/ui/loadings'
+      },
+      {
+        title: '通知提醒',
+        key: '/admin/ui/notices'
+      },
+      {
+        title: '全局提示框',
+        key: '/admin/ui/messages'
+      },
+      {
+        title: 'Tab页签',
+        key: '/admin/ui/tabs'
+      },
+      {
+        title: '图片画廊',
+        key: '/admin/ui/gallery'
+      },
+      {
+        title: '轮播图',
+        key: '/admin/ui/carousel'
       }
     ]
   },

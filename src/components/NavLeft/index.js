@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Icon } from 'antd';
+import { Menu } from 'antd';
 import menuConfig from '../../config/menuConfig';
 import logo from '../../resources/img/textlogo.png';
 import './style.less';
