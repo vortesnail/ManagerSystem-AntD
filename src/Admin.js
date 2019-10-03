@@ -5,7 +5,7 @@ import './style/common.less';
 import Header from './components/Header/index';
 import Footer from './components/Footer/index';
 import NavLeft from './components/NavLeft/index';
-import Home from './pages/home/index';
+// import Home from './pages/home/index';
 
 class Admin extends Component {
   render() {

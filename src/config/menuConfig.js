@@ -42,6 +42,20 @@ const menuList = [
     ]
   },
   {
+    title: '表单',
+    key: '/admin/form',
+    children: [
+      {
+        title: '登陆',
+        key: '/admin/form/login',
+      },
+      {
+        title: '注册',
+        key: '/admin/form/register',
+      },
+    ]
+  },
+  {
     title: '富文本',
     key: '/admin/rich'
   },

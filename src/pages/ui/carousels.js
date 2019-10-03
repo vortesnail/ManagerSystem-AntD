@@ -15,7 +15,7 @@ class Carousels extends Component {
           </Carousel>
         </Card>
         <Card title="轮播图片">
-          <Carousel className="carousel-wrapper">
+          <Carousel className="carousel-wrapper" autoplay={true} easing="fade">
             <div><img src="/carousel-img/carousel-1.jpg" className="carousel-img" alt="#"/></div>
             <div><img src="/carousel-img/carousel-2.jpg" className="carousel-img" alt="#"/></div>
             <div><img src="/carousel-img/carousel-3.jpg" className="carousel-img" alt="#"/></div>
