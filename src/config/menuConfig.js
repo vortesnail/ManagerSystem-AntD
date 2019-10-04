@@ -56,6 +56,20 @@ const menuList = [
     ]
   },
   {
+    title: '表格',
+    key: '/admin/table',
+    children: [
+      {
+        title: '基础表格',
+        key: '/admin/table/basic',
+      },
+      // {
+      //   title: '注册',
+      //   key: '/admin/form/register',
+      // },
+    ]
+  },
+  {
     title: '富文本',
     key: '/admin/rich'
   },
