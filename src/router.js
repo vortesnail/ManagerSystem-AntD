@@ -5,6 +5,7 @@ import App from './App';
 import Home from './pages/home/index';
 import Login from './pages/login/index';
 import Admin from './Admin';
+import Common from './Common';
 import Buttons from './pages/ui/button';
 import Modals from './pages/ui/modals';
 import Loadings from './pages/ui/loadings';
@@ -16,6 +17,8 @@ import Carousels from './pages/ui/carousels';
 import FormLogin from './pages/form/login';
 import FormRegister from './pages/form/register';
 import BasicTable from './pages/table/basicTable';
+import City from './pages/city/index';
+import Map from './pages/map/index';
 
 import NoMatch from './pages/noMatch/index';
 
@@ -41,11 +44,18 @@ class IRouter extends Component {
                 <Route path="/admin/form/login" component={FormLogin}/>
                 <Route path="/admin/form/register" component={FormRegister}/>
                 <Route path="/admin/table/basic" component={BasicTable}/>
+                <Route path="/admin/city" component={City}/>
                 <Route component={NoMatch}/>
               </Switch>
             </Admin>
           }/>
-          <Route path="/oreder/detail" component={Login}/>
+          <Route path="/common" render={() => 
+            <Common> 
+              <Switch>
+                <Route path="/common/oreder/detail" component={Map}/>
+              </Switch>
+            </Common>
+          }/>
         </App>
       </HashRouter>
     )
